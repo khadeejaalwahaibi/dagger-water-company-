@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartActivity"
+    android:background="@drawable/background"
+    android:id="@+id/delivery">
+
+    <ImageView
+        android:id="@+id/delivery_logout"
+        android:layout_width="56dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="57dp"
+        app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+        app:srcCompat="@drawable/back_new_24" />
+
+    <TextView
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="255dp"
+        android:text="logout"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="217dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="122dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="561dp"
+        android:text="Delivery Cart"
+        android:textColor="@color/blue"
+        android:textSize="36sp" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="360dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="444dp"
+        android:backgroundTint="#afcbee"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp">
+
+        <TextView
+            android:layout_width="321dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="452dp"
+            android:text="Name: Mohamed"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="321dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Order: 2x 250 ml dagger water"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="321dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:text="Price: 1.800 OMR"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="321dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp"
+            android:text="City and phone number: Muscat, 95326634"
+            android:textSize="15sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="360dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="335dp"
+        android:backgroundTint="#afcbee"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp">
+
+        <TextView
+            android:layout_width="321dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="452dp"
+            android:text="Name: khadeeja"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="321dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Order: 5x 2 ltr dagger water"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="321dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:text="Price: 2.400 OMR"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="321dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp"
+            android:text="City and phone number: Rusayl, 952046734"
+            android:textSize="15sp" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/acceptorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="@color/blue"
+        android:text="Accept Order"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>

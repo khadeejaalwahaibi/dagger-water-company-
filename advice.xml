@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="114dp"
+            android:text="Advice to customers"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="362dp"
+            android:layout_height="256dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="69dp"
+            android:layout_marginEnd="25dp"
+            android:text="@string/water_conservation_is_a_shared_responsibility_of_all_individuals_institutions_and_governments_every_drop_of_water_wasted_is_a_great_loss_and_every_effort_made_to_conserve_water_is_an_investment_for_a_better_future_water_is_a_precious_wealth_that_we_must_protect_and_preserve_by_rationalizing_its_consumption_and_using_it_efficiently_let_s_make_water_conservation_a_slogan_that_we_echo_and_apply_in_our_daily_lives_to_ensure_a_better_future_for_us_and_for_future_generations"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="446dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="308dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="-23dp"
+            android:src="@drawable/waterearth" />
+
+        <Button
+            android:id="@+id/advice"
+            android:layout_width="165dp"
+            android:layout_height="69dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="218dp"
+            android:layout_marginTop="-10dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="177dp"
+            android:backgroundTint="@color/blue"
+            android:text="next"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

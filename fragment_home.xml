@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ui.home.Home"
+    android:id="@+id/home">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="3dp"
+        android:background="@drawable/border"
+        android:focusable="false"
+        app:iconifiedByDefault="false"
+        app:queryHint="Are you thirsty?"
+        app:searchIcon="@drawable/baseline_search_24"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="130dp"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="281dp"
+        android:importantForAccessibility="no"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.016"
+        tools:ignore="MissingConstraints">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/water1"
+        android:layout_width="405dp"
+        android:layout_height="207dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="115dp"
+        android:src="@drawable/mainimg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="186dp"
+        android:layout_height="211dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="329dp"
+        android:layout_marginEnd="13dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="order4ltr"
+        app:cardBackgroundColor="#afcbee"
+        app:cardCornerRadius="20dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="93dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/ltr4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.538"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="90dp"
+            android:src="@drawable/quantity1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.238"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="120dp"
+            android:text="@string/_4_ltr_water"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="65dp"
+            tools:layout_editor_absoluteY="113dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="145dp"
+            android:text="@string/_700_bs"
+            android:textColor="#004aad"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="65dp"
+            tools:layout_editor_absoluteY="142dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="170dp"
+            android:text="@string/order"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="171dp">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="186dp"
+        android:layout_height="211dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="215dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="order2ltr"
+        app:cardBackgroundColor="#afcbee"
+        app:cardCornerRadius="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="292dp">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="93dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/ltr2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.538"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="90dp"
+            android:src="@drawable/quantity1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.238"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="120dp"
+            android:text="@string/_2_ltr_water"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="65dp"
+            tools:layout_editor_absoluteY="113dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="145dp"
+            android:text="@string/_400_bs"
+            android:textColor="#004aad"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="65dp"
+            tools:layout_editor_absoluteY="142dp" />
+
+        <TextView
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="170dp"
+            android:text="@string/order"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="171dp">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="186dp"
+        android:layout_height="211dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="12dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="order250ml"
+        app:cardBackgroundColor="#afcbee"
+        app:cardCornerRadius="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="292dp">
+
+        <ImageView
+            android:layout_width="103dp"
+            android:layout_height="90dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/ml250"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.538"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="90dp"
+            android:src="@drawable/quantity24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.238"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="120dp"
+            android:text="@string/_250_ml_water"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="65dp"
+            tools:layout_editor_absoluteY="113dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="145dp"
+            android:text="@string/_700_bs"
+            android:textColor="#004aad"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="65dp"
+            tools:layout_editor_absoluteY="142dp" />
+
+        <TextView
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="170dp"
+            android:text="@string/order"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="171dp">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="186dp"
+        android:layout_height="211dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="216dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="order500ml"
+        app:cardBackgroundColor="#afcbee"
+        app:cardCornerRadius="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="223dp"
+        tools:layout_editor_absoluteY="292dp">
+
+        <ImageView
+            android:layout_width="118dp"
+            android:layout_height="97dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/ml250"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.538"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="90dp"
+            android:src="@drawable/quantity24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.238"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="120dp"
+            android:text="500 ml water"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="65dp"
+            tools:layout_editor_absoluteY="113dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="145dp"
+            android:text="1 OMR"
+            android:textColor="#004aad"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="65dp"
+            tools:layout_editor_absoluteY="142dp" />
+
+        <TextView
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="57dp"
+            android:layout_marginTop="170dp"
+            android:text="@string/order"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="171dp">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="394dp"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="-5dp"
+        android:elevation="2dp"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@drawable/item_selector"
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu"
+        tools:ignore="MissingConstraints" />
+</RelativeLayout>

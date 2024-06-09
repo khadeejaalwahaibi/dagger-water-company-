@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/ml500Goback"
+        android:layout_width="56dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="73dp"
+        app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+        app:srcCompat="@drawable/back_new_24" />
+
+    <TextView
+        android:layout_width="106dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="238dp"
+        android:text="Go Back"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="600dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="129dp"
+        android:layout_marginEnd="23dp"
+        android:backgroundTint="#afcbee"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp">
+
+
+        <ImageView
+            android:id="@+id/ml500image"
+            android:layout_width="308dp"
+            android:layout_height="227dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+            app:srcCompat="@drawable/ml500" />
+
+        <TextView
+            android:id="@+id/ml500name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="290dp"
+            android:text="Dagger water 500 ml"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ltr2price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="330dp"
+            android:text="24x 1 OMR"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/ml500minus_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="380dp"
+            android:backgroundTint="@color/blue"
+            android:text="-"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ml500quantity"
+            android:layout_width="38dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="380dp"
+            android:text="0"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/ml500plus_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="380dp"
+            android:backgroundTint="@color/blue"
+            android:text="+"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ml500totalprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="530dp"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="530dp"
+            android:text="Total Price:"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="530dp"
+            android:text="OMR"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="560dp"
+            android:text="Estimated Delivery: 1-4 hours"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="440dp">
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vica"
+                android:textSize="20sp"/>
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cash"
+                android:textSize="20sp"/>
+        </RadioGroup>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/ml500order"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="750dp"
+        android:layout_marginEnd="77dp"
+        android:backgroundTint="@color/blue"
+        android:text="Order Now"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
